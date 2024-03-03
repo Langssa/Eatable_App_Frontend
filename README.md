@@ -63,7 +63,8 @@ Eatable은 업체 등록 간소화 쉬운 사용  - 포스기나 별도 절차 �
 ## ❤**서비스 기능 소개**
 
 #### 로그인
-![login](readme/login.gif)
+![login](readme/loginout.gif)
+![OAuth2login](readme/oauth2loginout.gif)
 ---
 
 #### 이벤트
