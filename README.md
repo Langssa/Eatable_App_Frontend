@@ -1,6 +1,6 @@
 ![homepage](readme/homepage.png)
 
-## ✈**Eatable 소개**
+## **Eatable 소개**
 
 
 Eatable은 **해외 공연/관광지 일정 사전 검색 및 항공편을 동일 사이트에서 확인 가능하여 일정 관리를 수월하게 할 수 있게 위해 제작한 웹사이트**입니다.
