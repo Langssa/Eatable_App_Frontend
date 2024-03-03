@@ -28,32 +28,39 @@ Eatable은 업체 등록 간소화 쉬운 사용  - 포스기나 별도 절차 �
 
 ## 🛠**기술 스텍**
 
-![skillstec](readme/skillstec.png)
+![skillstack](readme/skillstack.png)
 
 
 
 ## 📆**개발 기간**
 
-**2023.11.20 ~ 2023.12.27(총 5주)**
+**2024.01.26 ~ 2024.02.26(총 5주)**
 
 |주차 |구분 |활동|
 |:----:|:----:|:----|
 |1주차|사전기획   |  프로젝트 주제 선정 및 기획안 작성  | 
-|2주차|데이터 수집   |  해외공연, 관광지 API 수집  |  
-||   |  항공편, 숙박 API수집  |
-|3주차|데이터 전처리   |  데이터 정제 및 정규화  |  
-|4주차|모델링   |  기본  CSS 작성  |  
-|5주차|서비스 구축   |  웹 서비스 시스템 설계| 
-|||최적화, 오류 수정| 
+|2주차|데이터 수집   |  Google Map / EmailJs / ChartJs / JWT /Websocket|
+|3,4주차|기능구현 및 모델링   |  웹 서비스 시스템 설계 및 기능 구현, 기본 스타일 작성  |  
+|5주차|서비스 구축   |  기본  CSS 작성,최적화, 오류 수정  |  
+
 
 
 ## 🔄**시스템 설계**
 
-![mvc패턴](readme/mvc패턴.png)
+![JPA-React 프로젝트 흐름도](readme/projectflow.png)
 
-시스템 설계는 SpringBoot Framework를 통한 MVC 패턴으로 작성되었습니다.
-<br/>Controller는 세부적으로 Business Logic을 따라 작동하고 있습니다.
-<br/>Database는 MySQL을 사용하였고 Model과 Database의 Mapping을 위해 mybatis를 사용하였습니다.
+**Spring Boot 설정**: Spring Data JPA를 사용하여 데이터베이스와 상호 작용.
+
+**Entity 클래스 작성**: MySQL 데이터베이스의 테이블에 대응하는 Java 클래스를 만듦.
+
+**Repository 인터페이스 작성**: 각 엔티티에 대한 Repository 인터페이스를 만들어서 데이터베이스와의 상호 작용을 담당.
+
+**Controller 및 Business Logic**: Spring MVC 패턴을 따르는 컨트롤러를 만들어서 클라이언트의 요청을 처리하고, 비즈니스 로직을 실행
+
+**React 프론트엔드 개발**: React를 사용해서 웹 클라이언트를 만들고 백엔드로부터 데이터를 받아와서 사용자에게 보여줌.
+
+**REST API 구현**: Spring Boot 애플리케이션에서 RESTful 웹 서비스를 구현해서 클라이언트와 통신.
+
 ## ❤**서비스 기능 소개**
 
 #### 로그인
