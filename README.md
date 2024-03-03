@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+![homepage](readmeImg/homepage.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✈**TRAVEL with 소개**
 
-## Available Scripts
 
-In the project directory, you can run:
+Treavel with 는 **파편화된 해외 여행 정보를 한 사이트 내에서 모두 볼 수 있도록 하고 맞춤화된 방식으로 일정을 계획하고 경험할 수 있도록 제작한 웹사이트**입니다.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Treavel with 는 한 번의 조회로 다양한 여행지와 공연 정보를 제공하여 여행 계획을 단순화하고, 일정 관리를 용이하게 하며, AI 검색으로 개인화된 여행지 추천을 제공합니다. 또한, 여행 커뮤니티를 통해 정보 교환을 가능하게 하여, 사용자가 빠르고 쉽게 특별한 여행 경험을 만들 수 있도록 지원합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 😀**팀원 소개**
 
-### `npm test`
+|팀원|링크|역할|
+|------|---|---|
+|이종현|깃허브|버전 관리 및 DB 설계|
+|||챗봇 도우미 구현|
+|서현기|깃허브|홈, 항공, 숙박, 캘린더 페이지 구현|
+|||API활용한 페이징 구현, 캘린더 CRUD 구현|
+|임승빈|깃허브|로그인 및 회원가입|
+|||회원페이지|
+|장고운|깃허브|게시판(공지사항, 자유, 공유) CRUD 구현|
+|||검색창, 목록필터, 페이징 구현|
+|김종선|깃허브|이벤트 정보 조회, 페이징 구현|
+|||이벤트 상세 정보 페이지, 일정 추가 구현|
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠**기술 스텍**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![skillstec](readme/skillstec.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 📆**개발 기간**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**2023.11.20 ~ 2023.12.27(총 5주)**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+|주차 |구분 |활동|
+|:----:|:----:|:----|
+|1주차|사전기획   |  프로젝트 주제 선정 및 기획안 작성  | 
+|2주차|데이터 수집   |  해외공연, 관광지 API 수집  |  
+||   |  항공편, 숙박 API수집  |
+|3주차|데이터 전처리   |  데이터 정제 및 정규화  |  
+|4주차|모델링   |  기본  CSS 작성  |  
+|5주차|서비스 구축   |  웹 서비스 시스템 설계| 
+|||최적화, 오류 수정| 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔄**시스템 설계**
 
-## Learn More
+![mvc패턴](readme/mvc패턴.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+시스템 설계는 SpringBoot Framework를 통한 MVC 패턴으로 작성되었습니다.
+<br/>Controller는 세부적으로 Business Logic을 따라 작동하고 있습니다.
+<br/>Database는 MySQL을 사용하였고 Model과 Database의 Mapping을 위해 mybatis를 사용하였습니다.
+## ❤**서비스 기능 소개**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 로그인
+![login](readme/login.gif)
+---
 
-### Code Splitting
+#### 이벤트
+![event](readme/event.gif)
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 항공
+![항공조회](readme/항공조회.gif)
+---
 
-### Analyzing the Bundle Size
+#### 숙박
+![hotel](readme/hotel.gif)
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 달력
+![캘린더](readme/캘린더.gif)
+---
 
-### Making a Progressive Web App
+#### 게시판
+![게시판](readme/게시판.gif)
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### 도우미
+![chatbot](readme/chatbot.gif)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 마이페이지
+![마이페이지](readme/마이페이지.gif)
+---
