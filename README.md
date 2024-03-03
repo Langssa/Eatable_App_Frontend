@@ -1,4 +1,4 @@
-![homepage](readme/homepage.png)
+![homepage](readme/hompage.png)
 
 ## **Eatable 소개**
 
