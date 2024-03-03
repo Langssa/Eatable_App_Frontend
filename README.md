@@ -1,4 +1,4 @@
-![homepage](readmeImg/homepage.png)
+![homepage](readme/homepage.png)
 
 ## ✈**TRAVEL with 소개**
 
