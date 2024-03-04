@@ -62,35 +62,59 @@ Eatable은 업체 등록 간소화 쉬운 사용  - 포스기나 별도 절차 �
 
 ## ❤**서비스 기능 소개**
 
-#### 로그인
+#### 로그인 / JWT
+##### 로그인
 ![login](readme/loginout.gif)
+
+##### OAuth2로그인
 ![OAuth2login](readme/oauth2loginout.gif)
+
+##### JWT
+![JWT](readme/jwt.gif)
 ---
 
-#### 이벤트
-![event](readme/event.gif)
+#### 마이페이지
+![mypage](readme/mypage.gif)
 ---
 
-#### 항공
-![항공조회](readme/항공조회.gif)
+#### 관리자페이지
+##### 신청리스트
+![req](readme/adminreqlist.gif)
+
+##### 취소리스트
+![cancel](readme/admincancellist.gif)
+
+##### 차트
+![chart](readme/chart.gif)
+
+##### 히스토리
+![history](readme/history.gif)
 ---
 
-#### 숙박
-![hotel](readme/hotel.gif)
+#### 메뉴
+##### 디테일
+![menudetail](readme/menudetail.gif)
 ---
 
-#### 달력
+#### 예약,대기열
+![reservation2](readme/reservation2.gif)
+![reservation](readme/reservation.gif)
+![reservation](readme/reservation3.gif)
+---
+
+#### 파트너
 ![캘린더](readme/캘린더.gif)
 ---
 
-#### 게시판
+#### 룰렛
 ![게시판](readme/게시판.gif)
 ---
 
-#### 도우미
+#### 구글맵
 ![chatbot](readme/chatbot.gif)
 ---
 
-### 마이페이지
-![마이페이지](readme/마이페이지.gif)
+#### 타임라인
+![chatbot](readme/chatbot.gif)
 ---
+

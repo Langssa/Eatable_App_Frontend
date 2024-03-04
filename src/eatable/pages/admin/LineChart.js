@@ -77,7 +77,11 @@ console.log(userLists)
 
    // 각 날짜별 총 가입자 수를 누적해서 구함
    const totalListsByDate = {};
-   let totalSum = 0;
+   let totalSum = userLists.filter(user =>
+      !labels.includes(new Date(user.createdAt).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' }))).length;
+
+      console.log(totalSum)
+      
    labels.forEach(date => {
     totalSum += (userListsByDate[date] || 0);
      totalListsByDate[date] = totalSum;
