@@ -103,18 +103,19 @@ Eatable은 업체 등록 간소화 쉬운 사용  - 포스기나 별도 절차 �
 ---
 
 #### 파트너
-![캘린더](readme/캘린더.gif)
+![partnerupdate](readme/partnerupdate.gif)
+![partnerlist](readme/partnerlist.gif)
 ---
 
 #### 룰렛
-![게시판](readme/게시판.gif)
+![roulette](readme/roulette.gif)
 ---
 
 #### 구글맵
-![chatbot](readme/chatbot.gif)
+![googlemap](readme/googlemap.gif)
 ---
 
 #### 타임라인
-![chatbot](readme/chatbot.gif)
+![timeline](readme/timeline.gif)
 ---
 
