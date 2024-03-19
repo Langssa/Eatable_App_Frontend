@@ -66,6 +66,8 @@ Eatable은 **업체 등록 간소화 쉬운 사용  - 포스기나 별도 절차
 
 ## ❤**서비스 기능 소개**
 
+[식당예약관리 시연영상](https://m.youtube.com/watch?v=KxYGJm4qiCs&list=PLedGoSru794_gV9NDzrzhk2PsJGThG23p&index=2&t=9s&pp=iAQB)
+
 #### 로그인 / JWT
 ##### 로그인
 ![login](readme/loginout.gif)
